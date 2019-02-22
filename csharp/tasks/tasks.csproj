@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Task\" />
+    <Folder Include="Task\Task001\" />
+    <Folder Include="Task\Task002\" />
+    <Folder Include="Task\Task003\" />
+    <Folder Include="Task\Task004\" />
+    <Folder Include="Task\Task005\" />
+    <Folder Include="Task\Cr001\" />
+    <Folder Include="Task\Gfg01\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Task\Infrastructure\ICodeTask.cs" />
+    <Compile Remove="Task\New Folder\Solution.cs" />
+    <Compile Remove="Task\Cr001\Cr001\Cr001.cs" />
+  </ItemGroup>
+</Project>
