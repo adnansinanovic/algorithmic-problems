@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/compare-the-triplets/
 package comparetriplets
 
 import (
